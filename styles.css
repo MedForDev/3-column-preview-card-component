@@ -23,7 +23,7 @@
 
 html {
     box-sizing: border-box;
-    font-size: 15px;
+    font-size: 0.9375rem; /* 15px */
 }
 
 body {
@@ -45,8 +45,7 @@ body {
 }
 
 .col {
-    padding: .5rem 3rem;
-    height: 70vh;
+    padding: 5rem 3rem;
 
     display: flex;
     flex-direction: column;
@@ -97,11 +96,17 @@ body {
     color: var(--color-transparent-white);
 }
 
+.learn-more {
+    margin-top: 3rem;
+}
+
 .learn-more__button {
     padding: 1rem 2rem;
+    text-decoration: none;
     border-radius: 2rem;
     border: 2px solid var(--color-very-light-grey);
-    font-weight: 700;
+    background-color: var(--color-very-light-grey);
+    font-weight: 500;
     font-size: 1rem;
     transition: all .2s;
 }
